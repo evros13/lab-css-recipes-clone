@@ -17,8 +17,79 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: lighter;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+
+.background-img {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+  margin: 30px;
+}
+
+.title {
+  color: white; 
+  text-align: center;
+  padding: 300px;
+  font-size: 100px;
+}
+
+.icon1 {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.icon2 {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.subheading {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text {
+  font-size: 25px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+p {
+  padding-top: 30px;
+  font-size: 40px;
+  width: 1200px;
+  margin-left: 220px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+
+
+.text-body {
+  width: 1200px;
+  margin-left: 220px;
+}
